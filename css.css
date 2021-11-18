@@ -1,0 +1,72 @@
+
+#clock {
+	display: inline-flex;
+	flex-direction: {{clockDirection}};
+    overflow: hidden;
+}
+
+#hours_val {
+	order: {{hoursTextOrder}};
+	align-self: {{hoursTextAlignment}};
+	
+	color: {{hoursTextColor}};
+	font-family: '{{hoursTextFont}}', sans-serif;
+	font-size: {{hoursTextFontSize}}px;
+	font-weight: {{hoursTextFontWeight}};
+	text-shadow: {{hoursTextShadowH}}px {{hoursTextShadowV}}px {{hoursTextShadowB}}px {{hoursTextShadowColor}};
+}
+
+#hours_sep {
+	order: {{hoursSeparatorOrder}};
+	align-self: {{hoursSeparatorAlignment}};
+	
+	color: {{hoursSeparatorColor}};
+	font-family: '{{hoursSeparatorFont}}', sans-serif;
+	font-size: {{hoursSeparatorFontSize}}px;
+	font-weight: {{hoursSeparatorFontWeight}};
+	text-shadow: {{hoursSeparatorShadowH}}px {{hoursSeparatorShadowV}}px {{hoursSeparatorShadowB}}px {{hoursSeparatorShadowColor}};
+}
+
+#minutes_val {
+	order: {{minutesTextOrder}};
+	align-self: {{minutesTextAlignment}};
+	
+	color: {{minutesTextColor}};
+	font-family: '{{minutesTextFont}}', sans-serif;
+	font-weight: {{minutesTextFontWeight}};
+	font-size: {{minutesTextFontSize}}px;
+	text-shadow: {{minutesTextShadowH}}px {{minutesTextShadowV}}px {{minutesTextShadowB}}px {{minutesTextShadowColor}};
+}
+
+#minutes_sep {
+	order: {{minutesSeparatorOrder}};
+	align-self: {{minutesSeparatorAlignment}};
+	
+	color: {{minutesSeparatorColor}};
+	font-family: '{{minutesSeparatorFont}}', sans-serif;
+	font-weight: {{minutesSeparatorFontWeight}};
+	font-size: {{minutesSeparatorFontSize}}px;
+	text-shadow: {{minutesSeparatorShadowH}}px {{minutesSeparatorShadowV}}px {{minutesSeparatorShadowB}}px {{minutesSeparatorShadowColor}};
+}
+
+#seconds_val {
+	order: {{secondsTextOrder}};
+	align-self: {{secondsTextAlignment}};
+	
+	color: {{secondsTextColor}};
+	font-family: '{{secondsTextFont}}', sans-serif;
+	font-weight: {{secondsTextFontWeight}};
+	font-size: {{secondsTextFontSize}}px;
+	text-shadow: {{secondsTextShadowShadowH}}px {{secondsTextShadowShadowV}}px {{secondsTextShadowShadowB}}px {{secondsTextShadowColor}};
+}
+
+#seconds_sep {
+	order: {{secondsSeparatorOrder}};
+	align-self: {{secondsSeparatorAlignment}};
+	
+	color: {{secondsSeparatorColor}};
+	font-family: '{{secondsSeparatorFont}}', sans-serif;
+	font-weight: {{secondsSeparatorFontWeight}};
+	font-size: {{secondsSeparatorFontSize}}px;
+	text-shadow: {{secondsSeparatorShadowH}}px {{secondsSeparatorShadowV}}px {{secondsSeparatorShadowB}}px {{secondsSeparatorShadowColor}};
+}

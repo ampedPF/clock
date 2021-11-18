@@ -1,0 +1,542 @@
+{
+    "clockDirection": {
+        "label": "Clock Direction",
+        "type": "dropdown",
+        "value": "row",
+        "options": {
+            "row": "row",
+            "row-reverse": "row-reverse",
+            "column": "column",
+            "column-reverse": "column-reverse"
+        },
+        "group": "Clock Config"
+    },
+    "displayLeadingZeroHours": {
+        "label": "Leading Zero | Hours (reload)",
+        "type": "checkbox",
+        "value": true,
+        "group": "Clock Config"
+    },
+    "displayLeadingZeroMinutes": {
+        "label": "Leading Zero | Minutes (reload)",
+        "type": "checkbox",
+        "value": true,
+        "group": "Clock Config"
+    },
+    "displayLeadingZeroSeconds": {
+        "label": "Leading Zero | Seconds (reload)",
+        "type": "checkbox",
+        "value": true,
+        "group": "Clock Config"
+    },
+    "hoursTextOrder": {
+        "label": "Hours Order",
+        "type": "dropdown",
+        "value": "1",
+        "options": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "group": "Clock Config"
+    },
+    "hoursSeparatorOrder": {
+        "label": "Hours Separator Order",
+        "type": "dropdown",
+        "value": "2",
+        "options": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "group": "Clock Config"
+    },
+    "minutesTextOrder": {
+        "label": "Minutes Order",
+        "type": "dropdown",
+        "value": "3",
+        "options": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "group": "Clock Config"
+    },
+    "minutesSeparatorOrder": {
+        "label": "Minutes Separator Order",
+        "type": "dropdown",
+        "value": "4",
+        "options": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "group": "Clock Config"
+    },
+    "secondsTextOrder": {
+        "label": "Seconds Order",
+        "type": "dropdown",
+        "value": "5",
+        "options": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "group": "Clock Config"
+    },
+    "secondsSeparatorOrder": {
+        "label": "Seconds Separator Order",
+        "type": "dropdown",
+        "value": "6",
+        "options": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "group": "Clock Config"
+    },
+    "hoursTextColor": {
+        "label": "Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "Hours Text Config"
+    },
+    "hoursTextAlignment": {
+        "label": "Text Alignment",
+        "type": "dropdown",
+        "value": "Start",
+        "options": {
+            "flex-start": "Start",
+            "center": "Center",
+            "flex-end": "End"
+        },
+        "group": "Hours Text Config"
+    },
+    "hoursTextFont": {
+        "label": "Font Name",
+        "type": "googleFont",
+        "value": "Roboto",
+        "group": "Hours Text Config"
+    },
+    "hoursTextFontSize": {
+        "label": "Font Size",
+        "type": "number",
+        "value": 70,
+        "group": "Hours Text Config"
+    },
+    "hoursTextFontWeight": {
+        "label": "Font Weight",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "700": "Bold (700)",
+            "900": "Black (900)"
+        },
+        "group": "Hours Text Config"
+    },
+    "hoursTextShadowH": {
+        "label": "Shadow Horizontal Position",
+        "type": "text",
+        "value": "4",
+        "group": "Hours Text Config"
+    },
+    "hoursTextShadowV": {
+        "label": "Shadow Vertical Position",
+        "type": "text",
+        "value": "4",
+        "group": "Hours Text Config"
+    },
+    "hoursTextShadowB": {
+        "label": "Shadow Blur",
+        "type": "text",
+        "value": "4",
+        "group": "Hours Text Config"
+    },
+    "hoursTextShadowColor": {
+        "label": "Shadow Color",
+        "type": "colorpicker",
+        "value": "#000000",
+        "group": "Hours Text Config"
+    },
+    "hoursSeparator": {
+        "label": "Hour Separator",
+        "type": "text",
+        "value": ":",
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorColor": {
+        "label": "Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorAlignment": {
+        "label": "Text Alignment",
+        "type": "dropdown",
+        "value": "Start",
+        "options": {
+            "flex-start": "Start",
+            "center": "Center",
+            "flex-end": "End"
+        },
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorFont": {
+        "label": "Font Name",
+        "type": "googleFont",
+        "value": "Roboto",
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorFontSize": {
+        "label": "Font Size",
+        "type": "number",
+        "value": 70,
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorFontWeight": {
+        "label": "Font Weight",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "700": "Bold (700)",
+            "900": "Black (900)"
+        },
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorShadowH": {
+        "label": "Shadow Horizontal Position",
+        "type": "text",
+        "value": "4",
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorShadowV": {
+        "label": "Shadow Vertical Position",
+        "type": "text",
+        "value": "4",
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorShadowB": {
+        "label": "Shadow Blur",
+        "type": "text",
+        "value": "4",
+        "group": "Hours Separator Config"
+    },
+    "hoursSeparatorShadowColor": {
+        "label": "Shadow Color",
+        "type": "colorpicker",
+        "value": "#000000",
+        "group": "Hours Separator Config"
+    },
+    "minutesTextColor": {
+        "label": "Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "Minutes Text Config"
+    },
+    "minutesTextAlignment": {
+        "label": "Text Alignment",
+        "type": "dropdown",
+        "value": "Start",
+        "options": {
+            "flex-start": "Start",
+            "center": "Center",
+            "flex-end": "End"
+        },
+        "group": "Minutes Text Config"
+    },
+    "minutesTextFont": {
+        "label": "Font Name",
+        "type": "googleFont",
+        "value": "Roboto",
+        "group": "Minutes Text Config"
+    },
+    "minutesTextFontSize": {
+        "label": "Font Size",
+        "type": "number",
+        "value": 70,
+        "group": "Minutes Text Config"
+    },
+    "minutesTextFontWeight": {
+        "label": "Font Weight",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "700": "Bold (700)",
+            "900": "Black (900)"
+        },
+        "group": "Minutes Text Config"
+    },
+    "minutesTextShadowH": {
+        "label": "Shadow Horizontal Position",
+        "type": "text",
+        "value": "4",
+        "group": "Minutes Text Config"
+    },
+    "minutesTextShadowV": {
+        "label": "Shadow Vertical Position",
+        "type": "text",
+        "value": "4",
+        "group": "Minutes Text Config"
+    },
+    "minutesTextShadowB": {
+        "label": "Shadow Blur",
+        "type": "text",
+        "value": "4",
+        "group": "Minutes Text Config"
+    },
+    "minutesTextShadowColor": {
+        "label": "Shadow Color",
+        "type": "colorpicker",
+        "value": "#000000",
+        "group": "Minutes Text Config"
+    },
+    "minutesSeparator": {
+        "label": "Hour Separator",
+        "type": "text",
+        "value": ":",
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorColor": {
+        "label": "Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorAlignment": {
+        "label": "Text Alignment",
+        "type": "dropdown",
+        "value": "Start",
+        "options": {
+            "flex-start": "Start",
+            "center": "Center",
+            "flex-end": "End"
+        },
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorFont": {
+        "label": "Font Name",
+        "type": "googleFont",
+        "value": "Roboto",
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorFontSize": {
+        "label": "Font Size",
+        "type": "number",
+        "value": 70,
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorFontWeight": {
+        "label": "Font Weight",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "700": "Bold (700)",
+            "900": "Black (900)"
+        },
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorShadowH": {
+        "label": "Shadow Horizontal Position",
+        "type": "text",
+        "value": "4",
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorShadowV": {
+        "label": "Shadow Vertical Position",
+        "type": "text",
+        "value": "4",
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorShadowB": {
+        "label": "Shadow Blur",
+        "type": "text",
+        "value": "4",
+        "group": "Minutes Separator Config"
+    },
+    "minutesSeparatorShadowColor": {
+        "label": "Shadow Color",
+        "type": "colorpicker",
+        "value": "#000000",
+        "group": "Minutes Separator Config"
+    },
+    "secondsTextColor": {
+        "label": "Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "Seconds Text Config"
+    },
+    "secondsTextAlignment": {
+        "label": "Text Alignment",
+        "type": "dropdown",
+        "value": "Start",
+        "options": {
+            "flex-start": "Start",
+            "center": "Center",
+            "flex-end": "End"
+        },
+        "group": "Seconds Text Config"
+    },
+    "secondsTextFont": {
+        "label": "Font Name",
+        "type": "googleFont",
+        "value": "Roboto",
+        "group": "Seconds Text Config"
+    },
+    "secondsTextFontSize": {
+        "label": "Font Size",
+        "type": "number",
+        "value": 70,
+        "group": "Seconds Text Config"
+    },
+    "secondsTextFontWeight": {
+        "label": "Font Weight",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "700": "Bold (700)",
+            "900": "Black (900)"
+        },
+        "group": "Seconds Text Config"
+    },
+    "secondsTextShadowShadowH": {
+        "label": "Shadow Horizontal Position",
+        "type": "text",
+        "value": "4",
+        "group": "Seconds Text Config"
+    },
+    "secondsTextShadowShadowV": {
+        "label": "Shadow Vertical Position",
+        "type": "text",
+        "value": "4",
+        "group": "Seconds Text Config"
+    },
+    "secondsTextShadowShadowB": {
+        "label": "Shadow Blur",
+        "type": "text",
+        "value": "4",
+        "group": "Seconds Text Config"
+    },
+    "secondsTextShadowColor": {
+        "label": "Shadow Color",
+        "type": "colorpicker",
+        "value": "#000000",
+        "group": "Seconds Text Config"
+    },
+    "secondsSeparator": {
+        "label": "Text",
+        "type": "text",
+        "value": "",
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorColor": {
+        "label": "Color",
+        "type": "colorpicker",
+        "value": "#ffffff",
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorAlignment": {
+        "label": "Text Alignment",
+        "type": "dropdown",
+        "value": "Start",
+        "options": {
+            "flex-start": "Start",
+            "center": "Center",
+            "flex-end": "End"
+        },
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorFont": {
+        "label": "Font Name",
+        "type": "googleFont",
+        "value": "Roboto",
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorFontSize": {
+        "label": "Font Size",
+        "type": "number",
+        "value": 70,
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorFontWeight": {
+        "label": "Font Weight",
+        "type": "dropdown",
+        "value": "400",
+        "options": {
+            "100": "Thin (100)",
+            "300": "Light (300)",
+            "400": "Regular (400)",
+            "500": "Medium (500)",
+            "700": "Bold (700)",
+            "900": "Black (900)"
+        },
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorShadowH": {
+        "label": "Shadow Horizontal Position",
+        "type": "text",
+        "value": "4",
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorShadowV": {
+        "label": "Shadow Vertical Position",
+        "type": "text",
+        "value": "4",
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorShadowB": {
+        "label": "Shadow Blur",
+        "type": "text",
+        "value": "4",
+        "group": "Seconds Separator Config"
+    },
+    "secondsSeparatorShadowColor": {
+        "label": "Shadow Color",
+        "type": "colorpicker",
+        "value": "#000000",
+        "group": "Seconds Separator Config"
+    }
+}
